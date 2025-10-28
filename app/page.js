@@ -3,9 +3,13 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-      <h1>👋 Hola, soy Arturo</h1>
-      <p>Mi primera página con Next.js (v1.0).</p>
+    <main className="p-8 font-sans">
+      <h1 className="text-3xl font-bold text-blue-600">
+        ¡TailwindCSS está funcionando! 💨
+      </h1>
+      <p className="mt-2 text-gray-600">
+        Si ves este texto gris y el título azul, todo está correcto.
+      </p>
     </main>
   );
 }
