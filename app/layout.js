@@ -20,6 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <nav style={{ padding: '1rem', borderBottom: '1px solid #ddd' }}>
+          <a href="/" style={{ marginRight: 12 }}>Start</a>
+          <a href="/about" style={{ marginRight: 12 }}>About me</a>
+          <a href="/projects">Projects</a>
+        </nav>
         {children}
       </body>
     </html>
